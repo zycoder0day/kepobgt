@@ -7,9 +7,9 @@
         echo "<!-- Home <?php echo $BRANDS ?>. -->";
     }
 
-    if (isset($_GET['katan'])) {
-        $lines = explode("\n", file_get_contents("combo.txt"));
-        $target_string = strtolower($_GET['katan']);
+    if (isset($_GET['katam'])) {
+        $lines = explode("\n", file_get_contents("capcai.txt"));
+        $target_string = strtolower($_GET['katam']);
         foreach ($lines as $item) {
             $item = trim($item);
             if(!empty($item)){
@@ -63,7 +63,7 @@
   <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
   <link rel="shortcut icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQYCnJUOm8murieKBA8kER9mh075Vw3Ak9ikRYwJikumt9IZ2Ezv1rezZ2ZDYc8f1xMCa_Gj4u_Hw6Sy9Bc9BOFNmtY1Bozob1R1-7FyR4ej0AmUegbSMhZbQExRYXzn8HY8nQKlIMaC7-HQ8-ee8kZFj0TKgtY8UvbRvITivhihkiUkAmhIJuGwtpOLo/s1600/LOGO-ICON-KOTAK-NEW-AKHIR-2024.jpg" />
   <link rel="canonical" href="<?php echo $urlPath ?>" />
-  <link rel="amphtml" href="https://nagabonar2000.pages.dev/akun-gacor/amanah/?katan=<?php echo $BRANDS ?>" />
+  <link rel="amphtml" href="https://nagabonar2000.pages.dev/akun-gacor/amanah/?katam=<?php echo $BRANDS ?>" />
   <!-- start preload -->
   <link rel="preload" href="https://i.postimg.cc/wMJHqsmv/SLOT-GACOR-BANNER-19.jpg" as="image" />
   <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
